@@ -1,2 +1,2 @@
 # ADVICE
-An Efficient IIoT Based Smart Sensor Node for Predictive Maintenance of Induction Motors
+This is the code for the project: Designing an Efficient IIoT Based Smart Sensor Node for Predictive Maintenance of Induction Motors. It invloves a highly stable and low power IMU 'ADXL355' integrated with an ESP32-WROVER. It acquires 3-axis vibrational data via SPI and than performs signal processing (FFT) on-board. The FFT is than sent to the server using MQTT protocol. Initially, the vibrational data was sent, than the code was advanced to send processed data to cloud to reduce computational burden on the core.  
